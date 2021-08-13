@@ -1,0 +1,94 @@
+body {
+  background-color: #354649;
+}
+
+.title {
+  display: block;
+  padding-top: 180px;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Heebo", sans-serif;
+  color: #e0e7e9;
+  font-size: 80px;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Heebo", sans-serif;
+  color: #e0e7e9;
+  font-size: 54px;
+}
+
+span {
+  color: #a3c6c4;
+}
+
+.explore {
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: #354649;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #ffffff;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: "Heebo", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+  transition: all 0.2s;
+}
+.explore:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
+.about {
+  padding-top: 30px;
+}
+
+.about-title {
+  padding-left: 50px;
+  font-size: 28px;
+  text-align: left;
+  padding-top: 215px;
+}
+
+.about-tagline {
+  padding-left: 50px;
+  font-size: 25px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.face {
+  display: block;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.contact-button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+
+  background-color: #354649;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #ffffff;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: "Heebo", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+  transition: all 0.2s;
+}
+.contact-button:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
