@@ -52,14 +52,13 @@ span {
 }
 
 .about-title {
-  padding-left: 50px;
   font-size: 28px;
   text-align: left;
   padding-top: 215px;
 }
 
 .about-tagline {
-  padding-left: 50px;
+  text-align: center;
   font-size: 25px;
   font-weight: 400;
   text-align: left;
@@ -97,6 +96,7 @@ span {
 .resume-section {
   background-color: #e0e7e9;
   padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .tech-head {
@@ -146,4 +146,34 @@ p {
 
 .a:hover {
   text-decoration: none;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: #354649;
+  text-align: center;
+}
+
+.foot {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  text-align: center;
+  font-family: "Heebo", sans-serif;
+  color: #354649;
+  font-size: 15px;
+}
+.link-foot {
+  text-decoration: none;
+  color: #354649;
+}
+
+.link-foot:hover {
+  text-decoration: none;
+  color: #a3c6c4;
 }
