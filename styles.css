@@ -48,6 +48,7 @@ span {
 }
 .about {
   padding-top: 30px;
+  padding-bottom: 150px;
 }
 
 .about-title {
@@ -91,4 +92,58 @@ span {
 .contact-button:hover {
   color: #000000;
   background-color: #ffffff;
+}
+
+.resume-section {
+  background-color: #e0e7e9;
+  padding-top: 30px;
+}
+
+.tech-head {
+  color: #354649;
+  font-size: 40px;
+  padding-bottom: 15px;
+}
+
+.contact-title {
+  padding-top: 150px;
+  font-size: 70px;
+  padding-bottom: 20px;
+}
+
+.contact-h3 {
+  font-family: "Heebo", sans-serif;
+  color: #e0e7e9;
+  font-size: 34px;
+}
+
+p {
+  font-family: "Heebo", sans-serif;
+  color: #a3c6c4;
+  font-size: 24px;
+}
+
+.proj-title {
+  padding-top: 120px;
+  font-size: 70px;
+  padding-bottom: 50px;
+}
+
+.card-title {
+  color: #a3c6c4 !important;
+  font-size: 26px !important;
+}
+
+.card-text {
+  text-align: justify;
+  color: #6c7a89;
+  font-size: 18px;
+}
+
+.a {
+  text-decoration: none;
+}
+
+.a:hover {
+  text-decoration: none;
 }
