@@ -6,13 +6,32 @@
     font-size: 30px;
   }
 
-  .card-col {
-    display: flex;
+  /* .container {
     flex-wrap: wrap;
   }
 
+  .card-col {
+    flex-basis: 100%;
+    width: 100%;
+    padding-bottom: 30px;
+    padding-left: 18%;
+  } */
+
   .contact-title {
     font-size: 20px;
+    white-space: pre-wrap;
+  }
+}
+
+@media (max-width: 900px) {
+  .container {
+    flex-wrap: wrap;
+  }
+
+  .card-col {
+    flex-basis: 100%;
+    width: 100%;
+    padding: 50px;
   }
 }
 
